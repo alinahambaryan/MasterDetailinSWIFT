@@ -19,6 +19,8 @@ class MainTableViewController: UITableViewController {
     
     override func viewDidLoad()
     {
+        super.viewDidLoad()
+
         setNavBarTitle()
     }
     

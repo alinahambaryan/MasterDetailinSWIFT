@@ -16,6 +16,8 @@ class DetailViewControler: UIViewController {
     
     override func viewDidLoad()
     {
+        super.viewDidLoad()
+
         initIBOutlets()
         setNavBarTitle()
     }
