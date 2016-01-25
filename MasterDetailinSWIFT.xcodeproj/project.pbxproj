@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C9774E2A1C56189200668961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9774E291C56189200668961 /* AppDelegate.swift */; };
-		C9774E2C1C56189200668961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9774E2B1C56189200668961 /* ViewController.swift */; };
 		C9774E2F1C56189200668961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9774E2D1C56189200668961 /* Main.storyboard */; };
 		C9774E311C56189200668961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9774E301C56189200668961 /* Assets.xcassets */; };
 		C9774E341C56189200668961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9774E321C56189200668961 /* LaunchScreen.storyboard */; };
+		C9774E3E1C5619D500668961 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9774E3D1C5619D500668961 /* MainTableViewController.swift */; };
+		C9774E401C56224B00668961 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9774E3F1C56224B00668961 /* DataProvider.swift */; };
+		C9774E421C565B5F00668961 /* DetailViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9774E411C565B5F00668961 /* DetailViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9774E261C56189200668961 /* MasterDetailinSWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterDetailinSWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9774E291C56189200668961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9774E2B1C56189200668961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9774E2E1C56189200668961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9774E301C56189200668961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9774E331C56189200668961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9774E351C56189200668961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9774E3D1C5619D500668961 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = ../MainTableViewController.swift; sourceTree = "<group>"; };
+		C9774E3F1C56224B00668961 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		C9774E411C565B5F00668961 /* DetailViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		C9774E281C56189200668961 /* MasterDetailinSWIFT */ = {
 			isa = PBXGroup;
 			children = (
+				C9774E3F1C56224B00668961 /* DataProvider.swift */,
+				C9774E3D1C5619D500668961 /* MainTableViewController.swift */,
+				C9774E411C565B5F00668961 /* DetailViewControler.swift */,
 				C9774E291C56189200668961 /* AppDelegate.swift */,
-				C9774E2B1C56189200668961 /* ViewController.swift */,
 				C9774E2D1C56189200668961 /* Main.storyboard */,
 				C9774E301C56189200668961 /* Assets.xcassets */,
 				C9774E321C56189200668961 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9774E2C1C56189200668961 /* ViewController.swift in Sources */,
+				C9774E401C56224B00668961 /* DataProvider.swift in Sources */,
 				C9774E2A1C56189200668961 /* AppDelegate.swift in Sources */,
+				C9774E421C565B5F00668961 /* DetailViewControler.swift in Sources */,
+				C9774E3E1C5619D500668961 /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
